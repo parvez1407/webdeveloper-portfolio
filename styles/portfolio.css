@@ -93,11 +93,34 @@ header {
 }
 
 /* Main Section Start */
-
+main {
+  max-width: 1640px;
+  margin: 0 auto;
+}
 /* About Section Start  */
 .about {
   padding: 130px 155px;
   border-radius: 10px;
   background: #fff8f3;
-  margin: 130px 230px;
+  margin: 130px;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-between;
+}
+.about-info {
+  text-align: center;
+}
+.info-title {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.info-description {
+  color: #474747;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 0;
 }
