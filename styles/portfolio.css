@@ -3,6 +3,8 @@
 body {
   font-family: "Lato", sans-serif;
   font-family: "Open Sans" sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 /* Nav related Styles */
@@ -46,12 +48,38 @@ nav a {
 /* Header Related Style */
 header {
   background-color: #fff8f3;
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .banner {
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0 150px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .banner .banner-pic {
   width: 500px;
 }
+.banner-greeting {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
+}
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.banner-content {
+  max-width: 500px;
+}
+.banner-description {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* Main Section Start */
+
+/* About Section Start  */
