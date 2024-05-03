@@ -190,3 +190,12 @@ main section {
   text-align: center;
   margin-top: 50px;
 }
+
+/* Footer Styles */
+footer {
+  display: flex;
+  background: #fff8f3;
+  margin-top: 113px;
+  padding: 130px 175px;
+  gap: 100px;
+}
